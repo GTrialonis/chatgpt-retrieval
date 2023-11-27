@@ -34,7 +34,7 @@ if PERSIST and os.path.exists("persist"):
 else:
     # loader = TextLoader("data/data.txt")  # Use this line if you only need data.txt
     loader = TextLoader("data/myPoems.txt")
-    #loader = DirectoryLoader("data/")
+    loader = DirectoryLoader("data/")
     if PERSIST:
         index = VectorstoreIndexCreator(
             vectorstore_kwargs={"persist_directory": "persist"}
