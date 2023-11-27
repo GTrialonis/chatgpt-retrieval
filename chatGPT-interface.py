@@ -17,7 +17,7 @@ from langchain.vectorstores import Chroma
 import constants
 os.environ["OPENAI_API_KEY"] = constants.APIKEY
 
-# Mock function to simulate interaction with ChatGPT
+# Function to simulate interaction with ChatGPT
 def interact_with_chatgpt(query, chat_history):
     # Create the chain with the selected model each time
     chain = ConversationalRetrievalChain.from_llm(
@@ -42,8 +42,10 @@ if PERSIST and os.path.exists("persist"):
     index = VectorStoreIndexWrapper(vectorstore=vectorstore)
 else:
     # loader = TextLoader("data/data.txt")  # Use this line if you only need data.txt
-    loader = TextLoader("data/data.txt")
+    
     loader = DirectoryLoader("data/")
+    loader = TextLoader("data/myPoems.txt")
+    
     if PERSIST:
         index = VectorstoreIndexCreator(
             vectorstore_kwargs={"persist_directory": "persist"}
