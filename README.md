@@ -1,4 +1,6 @@
 # chatgpt-retrieval
+# chatGPT-interface.py <-- I have created an interface to interact with ChatGPT and with my files
+# chatgpt.py <-- You can interact as above but on your IDE terminal or system terminal
 
 Simple script to use ChatGPT on your own files.
 
