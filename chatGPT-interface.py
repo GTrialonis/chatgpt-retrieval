@@ -42,7 +42,7 @@ if PERSIST and os.path.exists("persist"):
     index = VectorStoreIndexWrapper(vectorstore=vectorstore)
 else:
     # loader = TextLoader("data/data.txt")  # Use this line if you only need data.txt
-    loader = TextLoader("/Users/georgiostrialonis/chatgpt_retrieval/chatgpt-retrieval/data/The_White_Gloves.pdf") # choose file to interrogate
+    loader = TextLoader("data/myPoems.txt") # choose file to interrogate
     #loader = DirectoryLoader("data/")
     
     if PERSIST:
