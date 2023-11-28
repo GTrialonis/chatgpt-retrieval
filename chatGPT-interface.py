@@ -28,7 +28,7 @@ def interact_with_chatgpt(query, chat_history):
     return result["answer"]
 
 # Enable to save to disk & reuse the model (for repeated queries on the same data)
-PERSIST = True  # Originally it was "False"
+PERSIST = False  # Originally it was "False"
 query = None
 
 if len(sys.argv) > 1:
