@@ -1,6 +1,6 @@
 ### From chatgpt-retrieval choose the 'chatGPT-interface.py', a stand-alone script, to interact with your files, with the files in the data folder and with the Internet.
 
-# chatgpt.py <-- You can interact as above but on your IDE terminal or system terminal
+## chatgpt.py <-- You can interact as above but on your IDE terminal or system terminal
 
 ### This project combines with another script, which is not included here, the 'task-toDo4.py'
 ### ------------------------------------------------------------
