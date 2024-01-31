@@ -1,3 +1,5 @@
+### MAKE SURE YOU HAVE THE TREE NECESSARY API keys to run each python script individually or in combination. All make sure the PATHS are correct.
+
 ### From chatgpt-retrieval choose the 'chatGPT-interface.py', a stand-alone script, to interact with your files, with the files in the data folder and with the Internet.
 
 ## chatgpt.py <-- You can interact as above but on your IDE terminal or system terminal
