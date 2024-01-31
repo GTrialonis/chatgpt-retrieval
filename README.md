@@ -1,6 +1,6 @@
 ### MAKE SURE YOU HAVE THE THREE NECESSARY API keys to run each python script individually or in combination. Also make sure the PATHS in each script are correct for your system.
 
-### From chatgpt-retrieval choose the 'chatGPT-interface.py', a stand-alone script, to interact with your files, with the files in the data folder and with the Internet.
+### From chatgpt-retrieval choose the 'chatGPT-interface.py', a stand-alone script, to interact with your files, with the files in the data folder and with the Internet. If you don't need the Gmail button then delete it and also the lines for the gmail API key. But you do need and OpenAI API key to run this script.
 
 ## chatgpt.py <-- You can interact as above but only on your IDE terminal or system terminal
 
