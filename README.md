@@ -1,4 +1,4 @@
-### MAKE SURE YOU HAVE THE TREE NECESSARY API keys to run each python script individually or in combination. Also make sure the PATHS in each script are correct for your system.
+### MAKE SURE YOU HAVE THE THREE NECESSARY API keys to run each python script individually or in combination. Also make sure the PATHS in each script are correct for your system.
 
 ### From chatgpt-retrieval choose the 'chatGPT-interface.py', a stand-alone script, to interact with your files, with the files in the data folder and with the Internet.
 
