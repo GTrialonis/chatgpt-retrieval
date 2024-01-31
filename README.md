@@ -1,8 +1,8 @@
-### MAKE SURE YOU HAVE THE TREE NECESSARY API keys to run each python script individually or in combination. All make sure the PATHS are correct.
+### MAKE SURE YOU HAVE THE TREE NECESSARY API keys to run each python script individually or in combination. Also make sure the PATHS in each script are correct for your system.
 
 ### From chatgpt-retrieval choose the 'chatGPT-interface.py', a stand-alone script, to interact with your files, with the files in the data folder and with the Internet.
 
-## chatgpt.py <-- You can interact as above but on your IDE terminal or system terminal
+## chatgpt.py <-- You can interact as above but only on your IDE terminal or system terminal
 
 ### This project combines with another script, which is not included here, the 'task-toDo4.py'
 ### ------------------------------------------------------------
