@@ -4,8 +4,8 @@
 
 ## chatgpt.py <-- You can interact as above but only on your IDE terminal or system terminal
 
-### This project combines with another script, which is not included here, the 'task-toDo4.py'
-### ------------------------------------------------------------
+### I included 'task-toDo4 which you can run individually. If you don't want to use the 'Get Weather' button, delete it and the lines related to the API key.
+### -----------------------------------------------------------
 
 Simple script to use ChatGPT on your own files.
 
